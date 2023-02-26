@@ -1,0 +1,283 @@
+body,html
+{
+    width:100%;
+    padding:0px;
+    margin:0px;
+
+
+}
+
+/* NAV BAR STARTS */
+
+
+.navbar
+{
+    background-color:rgba(0, 0, 0,0.704);
+    color:rgba(111, 84, 137, 0.881);
+    padding:0.5px 57px .5px 20px;
+    outline: solid rgba(111, 84, 137, 0.981) ;
+    position: fixed;
+    top: 0px;
+    z-index:1;
+	width:100%
+    
+}
+.nav-item,.navbar-nav
+{
+
+    display: inline
+}
+.nav-link,.nav-brand
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:rgba(144, 175, 255, 0.981);
+    margin: 10px;
+}
+.nav-link
+{
+    transition:color 3s;
+}
+.nav-link:hover
+{
+    color:white;
+    text-decoration: underline;
+}
+.nav-brand
+{
+    font-size: 30px;
+    text-shadow:2px 2px 2px rgb(255, 238, 238);
+    margin-left: 35px;
+    
+}
+.nav-brand span
+{
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+    
+    
+}
+.navbar-nav
+{
+    margin-left: 200px;
+}
+/* NAVBAR ENDS */
+.banner
+{
+    height:800px;
+    background-image:linear-gradient(rgba(111, 84, 137, 0.704),rgba(255, 255, 255,0.704),rgba(0, 0, 0,0.704)),url(https://cdn.pixabay.com/photo/2013/07/25/11/58/cricket-166930_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top:58px;
+    padding-top:100px;
+}
+.banner-card
+{
+    border-top:6px solid rgba(255, 0, 0, 0.69);
+    background-color:rgba(111, 84, 137, 0.811);
+    width:45%;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: justify;
+}
+.banner-btn
+{
+    border:3px solid rgba(255, 0, 0, 0.69);
+    padding:5px 25px;
+    border-radius:10px;
+    background-color:transparent;
+    transition:background-color 3s;
+    margin-right: 0px;
+}
+.banner-btn:hover
+{
+    background-color:rgba(255, 0, 0, 0.69) ;
+    
+}
+/* epsum starts */
+.epsum
+{
+
+    
+    text-align: justify;
+    margin:20px;
+    font-style: italic;
+
+}
+.epsum1
+{
+    width:600px;
+    display:inline-block;
+    margin:20px;
+    margin-right:30px;
+    background-color:rgba(250, 235, 215, 0.586);
+    padding: 10px;
+    border-radius: 15px;
+}
+.epsum1:hover
+{
+    zoom:30px;
+}
+.epsum2
+{
+    width:550px;
+    display:inline-block;
+    margin:10px;
+    background-color:rgba(250, 235, 215, 0.586);
+    padding:10px;
+    border-radius:15px ;
+}
+.epsum2 ul
+{
+    list-style-type: none;
+}
+.fa-check-double
+{
+    color: blueviolet;
+}
+/* epsum ends */
+/* lorem starts */
+.lorem
+{
+    margin:0px 10px,10px,10px;
+    background-color: rgba(111, 84, 137, 0.345);
+    padding:50px;
+    padding-top: 2px; 
+    padding-bottom:2px;   
+    margin:35px;
+    border-radius:10px;
+    text-align: center;
+
+    
+}
+.lorem-card
+{
+    width:200px;
+    background-color:rgba(111, 84, 137, 0.52);
+    padding:50px;
+    margin:20px ;
+    margin-right: 55px;
+    display:inline-block;
+    border-radius: 15px;
+    transition:background-color,box-shadow 1s;
+}
+.lorem-card:hover
+{
+    background-color:rgba(111, 84, 137, 0.844) ;
+    box-shadow:3px 3px 3px 2px black;
+
+}
+.fa-solid
+{
+    transition:background-color 3s;
+}
+.lorem-card:hover .fa-solid
+{
+    background-color:rgba(110, 19, 19, 0.844) ;
+    
+    
+}
+.lorem-card i
+{
+    font-size:30px;
+    background-color: rgba(111, 84, 137, 0.285);
+    border-radius:100%;
+    padding:2px;
+}
+/* lorem ends */
+/* gallary start */
+.gallery
+{
+    background-color: rgba(58, 127, 168, 0.57);
+    padding:20px 30px 20px 30px;
+    margin:10px 20px 10px 20px;
+    border-radius:10px;
+    
+}
+.gallery img
+{
+   
+    height: 300px;
+    width: 400px;
+    opacity: 0.5;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+    transition: opacity 2s,transform 2s;
+}
+.gallery img:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+/* gallary ends */
+/* patterns starts */
+.patners
+{
+    background-color: white;
+    border: 2px solid black;
+    border-radius:5px;
+    margin :10px 200px 10px 200px;
+    padding:30px 50px 30px 100px  ;
+    
+}
+.patnerslogo
+{ 
+    display:inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.patners h3
+{
+    text-align: center;
+    color: rgb(16, 12, 20);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.patners img
+{
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+    transition: opacity 2s,transform 2s;
+}
+.patners img:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.footer
+{
+    background-color:rgba(0, 0, 0,0.704);
+    color:black;
+    margin:5px 5px 5px 5px;
+    padding: 20px 50px 20px 125px;
+
+    
+}
+.location,.links,.join,.services
+{ 
+    text-align: justify;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+
+.join button,textarea
+{
+    background-color: black;
+    color:white;
+}
+
+
+
+/* pateners ends */
+
+
